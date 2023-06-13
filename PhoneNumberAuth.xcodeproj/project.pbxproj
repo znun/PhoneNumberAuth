@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE05290E2A387C7600F7FA44 /* MobileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05290D2A387C7600F7FA44 /* MobileViewController.swift */; };
+		CE0529102A387C8900F7FA44 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05290F2A387C8900F7FA44 /* OtpViewController.swift */; };
 		CED42ACE2A383C6200CD6294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED42ACD2A383C6200CD6294 /* AppDelegate.swift */; };
 		CED42AD02A383C6200CD6294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED42ACF2A383C6200CD6294 /* SceneDelegate.swift */; };
 		CED42AD22A383C6200CD6294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED42AD12A383C6200CD6294 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE05290D2A387C7600F7FA44 /* MobileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileViewController.swift; sourceTree = "<group>"; };
+		CE05290F2A387C8900F7FA44 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
 		CED42ACA2A383C6200CD6294 /* PhoneNumberAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneNumberAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED42ACD2A383C6200CD6294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED42ACF2A383C6200CD6294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0529112A387C9200F7FA44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CED42AD12A383C6200CD6294 /* ViewController.swift */,
+				CE05290D2A387C7600F7FA44 /* MobileViewController.swift */,
+				CE05290F2A387C8900F7FA44 /* OtpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CED42AC12A383C6200CD6294 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		CED42ACC2A383C6200CD6294 /* PhoneNumberAuth */ = {
 			isa = PBXGroup;
 			children = (
+				CE0529112A387C9200F7FA44 /* Controller */,
 				CED42ACD2A383C6200CD6294 /* AppDelegate.swift */,
 				CED42ACF2A383C6200CD6294 /* SceneDelegate.swift */,
-				CED42AD12A383C6200CD6294 /* ViewController.swift */,
 				CED42AD32A383C6200CD6294 /* Main.storyboard */,
 				CED42AD62A383C6500CD6294 /* Assets.xcassets */,
 				CED42AD82A383C6500CD6294 /* LaunchScreen.storyboard */,
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0529102A387C8900F7FA44 /* OtpViewController.swift in Sources */,
+				CE05290E2A387C7600F7FA44 /* MobileViewController.swift in Sources */,
 				CED42AD22A383C6200CD6294 /* ViewController.swift in Sources */,
 				CED42ACE2A383C6200CD6294 /* AppDelegate.swift in Sources */,
 				CED42AD02A383C6200CD6294 /* SceneDelegate.swift in Sources */,

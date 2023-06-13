@@ -65,6 +65,20 @@ class ViewController: UIViewController {
         })
         
     }
-
+    
+    @IBAction func loginBtnTapped(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil)
+        guard let controller = vc.instantiateViewController(withIdentifier: "MobileViewController") as? MobileViewController else {
+            return
+        }
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    @IBAction func readyBtnTapped(_ sender: Any) {
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
 }
 
