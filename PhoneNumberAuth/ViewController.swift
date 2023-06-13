@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 3, animations: {
             self.logo.transform = CGAffineTransform(rotationAngle: 0)
         }, completion: nil)
+        
+        self.logo.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 3, animations: {
+            self.logo.transform = CGAffineTransform(scaleX: 1, y: 1)
+        }, completion: nil)
     }
 
 }
