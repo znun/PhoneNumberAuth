@@ -19,14 +19,21 @@ class ViewController: UIViewController {
 
     func configureLayout() {
         self.logo.transform = CGAffineTransform(rotationAngle: 360)
-        UIView.animate(withDuration: 3, animations: {
+        UIView.animate(withDuration: 1, animations: {
             self.logo.transform = CGAffineTransform(rotationAngle: 0)
         }, completion: nil)
         
         self.logo.transform = CGAffineTransform(scaleX: 0, y: 0)
-        UIView.animate(withDuration: 3, animations: {
-            self.logo.transform = CGAffineTransform(scaleX: 1, y: 1)
-        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.logo.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+        }, completion: {(finish:Bool) in
+            UIView.animate(withDuration: 1, animations: {
+                
+                self.logo.transform = CGAffineTransform(scaleX: 1, y: 1)
+            }, completion: nil)
+            
+        })
+        
     }
 
 }
