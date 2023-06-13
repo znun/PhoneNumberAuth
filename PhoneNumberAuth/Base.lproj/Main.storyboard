@@ -27,7 +27,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="85g-Xf-prs" firstAttribute="leading" secondItem="8ww-vT-KQS" secondAttribute="leading" constant="77" id="4iu-Dp-GhI"/>
                                     <constraint firstItem="85g-Xf-prs" firstAttribute="top" secondItem="8ww-vT-KQS" secondAttribute="top" constant="55" id="Rbu-fp-rtW"/>
@@ -81,7 +81,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="KA2-oh-WvH" firstAttribute="leading" secondItem="BdN-8A-ld6" secondAttribute="leading" constant="54" id="5xx-rt-X9e"/>
                                     <constraint firstItem="emX-3z-d22" firstAttribute="leading" secondItem="BdN-8A-ld6" secondAttribute="leading" constant="77" id="DIC-zH-3HQ"/>
@@ -108,12 +108,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginBtn" destination="0k9-w2-Eql" id="58j-K2-D4F"/>
                         <outlet property="logo" destination="85g-Xf-prs" id="r7E-jl-G2K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14.503816793893129" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="-77" y="-87"/>
         </scene>
     </scenes>
     <resources>
@@ -121,9 +122,6 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
